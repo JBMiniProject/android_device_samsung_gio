@@ -19,7 +19,6 @@ include device/samsung/msm7x27-common/common.mk
 
 ## Device specific overlay & kernel
 DEVICE_PACKAGE_OVERLAYS := device/samsung/gio/overlay
-TARGET_PREBUILT_KERNEL := device/samsung/gio/prebuilt/kernel
 
 ## Audio
 PRODUCT_PACKAGES += \
