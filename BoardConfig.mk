@@ -24,6 +24,9 @@ BOARD_USES_LEGACY_CAMERA := true
 
 ## Kernel, bootloader
 TARGET_BOOTLOADER_BOARD_NAME := gio
+TARGET_KERNEL_SOURCE := kernel/samsung/msm7x27
+TARGET_KERNEL_CONFIG := cyanogenmod_gio_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7.1
 
 ## Assert
 TARGET_OTA_ASSERT_DEVICE := gio,GT-S5660
