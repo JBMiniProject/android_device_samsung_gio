@@ -19,6 +19,9 @@
 
 include device/samsung/msm7x27-common/BoardConfigCommon.mk
 
+## Camera
+BOARD_USES_LEGACY_CAMERA := true
+
 ## Kernel, bootloader
 TARGET_BOOTLOADER_BOARD_NAME := gio
 
